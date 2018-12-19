@@ -1,0 +1,15 @@
+{
+		"dependencies": {
+				"openzepplin-solidity": "1.12.0",
+				"truffle": "^4.1.14"
+		},
+		"devDependencies": {
+				"solidity-coverage": "^0.5.11"
+		},
+		"scripts": {
+				"build": "truffle compile",
+				"test": "truffle test",
+				"test:coverage": "solidity-coverage"
+				"coverage": "./node_modules/.bin/solidity-coverage"
+		}
+}
